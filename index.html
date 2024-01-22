@@ -6,6 +6,20 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>This is a website for testing the ArcGIS Earth app link</h1>
+  <h2>This is a website for testing ArcGIS Earth app link</h2>
+  <div>
+    <p>Already have the app installed?</p>
+    <button id="openApp"><a>Open the app</a></button>
+  </div>
+  <script>
+    const openApp = document.getElementById('openApp');
+    openApp.addEventListener('click', () => {
+      // get the query string from the current url
+      const queryString = window.location.search;
+      const url = `arcgis-earth://${queryString}`;
+      // set the url to the a tag
+      openApp.querySelector('a').href = url;
+    });
+  </script>
 </body>
 </html>

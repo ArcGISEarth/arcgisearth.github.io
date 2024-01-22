@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "75Z67E6SV2.com.esri.earth.phone",
+        "paths": ["*"]
+      }
+    ]
+  }
+}

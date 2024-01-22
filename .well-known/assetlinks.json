@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.esri.earth.phone",
+    "sha256_cert_fingerprints": ["2F:2D:33:8A:AD:5D:9E:9F:67:61:31:AF:22:3B:3E:17:A4:74:5A:4A:53:65:DC:45:80:47:24:98:F2:92:0D:81"]
+  }
+}]
